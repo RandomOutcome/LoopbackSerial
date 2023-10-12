@@ -21,7 +21,7 @@ The library is based upon the Arduino SoftwareSerial libraries methods, and can 
     #include <LoopbackSerial.h>
  
 ### LoopbackSerial library has the following known limitations:
-- Each instantiate object's FIFO queue size is fixed at 64 bytes 
+- Each instantiated object's FIFO queue size is fixed at 64 bytes 
 - Does not seek to mirror limitations of SoftwareSerial library (e.g. single active listener only or device IO and Interrupt impacts)
 - Does not simulate baudrate - the data can be written and read from the loopback device at device rather than interface speed
 - Does not simulate serial handshaking signals (e.g. DTR/DSR/RTS/CRS) or half duplex operation

@@ -26,7 +26,7 @@ The library is based upon the Arduino SoftwareSerial libraries methods, and can 
 - Does not simulate baudrate - the data can be written and read from the loopback device at device rather than interface speed
 - Does not simulate serial handshaking signals (e.g. DTR/DSR/RTS/CRS) or half duplex operation
 
-.### Features
+### Features
 -   Provides local loopback communication, memory based, stream based upon the SoftwareSerial class interface
 -   Can be used as FIFO stream between software components 
 -   Supports both sending (storing) and receiving (retrieving) data at the same time
